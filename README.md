@@ -24,3 +24,9 @@ Instructions to download the app;
 8 - Press f5 when the file opens.
 
 9 - Finally, answer the questions.
+
+# VERSIONS
+
+## 1.0
+- Added variables for DeepFindOS
+- Fixed time issues.![Screen Shot 2023-04-17 at 10 01 18](https://user-images.githubusercontent.com/130823029/232408954-d49b235c-a119-4155-9eee-d1d10e15751b.png)
