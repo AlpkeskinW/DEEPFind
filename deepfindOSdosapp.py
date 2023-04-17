@@ -47,15 +47,19 @@ if quest1 == "1":
 
      if sot1 == "1":
           print("Using Linux is not recommended for you. But if you want to, you can use Ubuntu, Linux LITE, Pardus, Linux XP.")
+          time.sleep(120)
 
      if sot1 == "2":
           print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu. | For Touch Screens: Ubuntu Touch, Fedora, Flash Linux, PostmarketOS, Sailfish, Mobian, Pure OS, Plasma Mobile.")
+          time.sleep(120)
 
      if sot1 == "3":
           print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home. | For Touch Screens: Ubuntu Touch, Fedora, Flash Linux, PostmarketOS, Sailfish, Mobian, Pure OS, Plasma Mobile.")
+          time.sleep(120)
 
      if sot1 == "4":
           print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home, ParrotSEQ, Kali Linux, Parrot HTB, Astra OS, Devuan, BOSS Linux, Sacix, Vyatta, Blackarch, Manjaro, KaOS, ChromeOS, ChromiumOS, Fire OS, Oracle Linux, Redhat Enterprise, Redhat. | For Touch Screens: Ubuntu Touch, Fedora, Flash Linux, PostmarketOS, Sailfish, Mobian, Pure OS, Plasma Mobile, Nethunter.")
+          time.sleep(120)
 
 
 # - CODING (CONDITIONS)
@@ -66,15 +70,19 @@ if quest1 == "2":
 
      if coding1 == "1":
           print("The recommended Linux distributions for you are: Ubuntu, Parrot Architect, Parrot Home, Fedora, Linux MINT")
+          time.sleep(120)
 
      if coding1 == "2":
           print("The recommended Linux distributions for you are: Ubuntu, Parrot Architect, Parrot Home, Fedora, Linux MINT, Arch Linux, Xubuntu, Lubuntu, OpenSUSE, Redhat, Debian.")
+          time.sleep(120)
 
      if coding1 == "3":
           print("The recommended Linux distributions for you are: Ubuntu, Parrot Architect, Parrot Home, Fedora, Linux MINT, Arch Linux, Xubuntu, Lubuntu, OpenSUSE, Redhat, Debian, Asianux, Oracle Linux, Kali Linux, ParrotSEC, Red Flag Linux")
+          time.sleep(120)
 
      if coding1 == "4":
           print("The recommended Linux distributions for you are: Ubuntu, Parrot Architect, Parrot Home, Fedora, Linux MINT, Arch Linux, Xubuntu, Lubuntu, OpenSUSE, Redhat, Debian, Asianux, Oracle Linux, Kali Linux, ParrotSEC, Red Flag Linux, BlackArch, Miracle Linux, Scientific Linux, Fuduntu, Trustix")
+          time.sleep(120)
 
 
 # - HOSTING (CONDITIONS)
@@ -84,6 +92,7 @@ if quest1 == "3":
 
      if hosting1 == "1" or "2" or "3" or "4":
           print("The recommended Linux distributions for you / your company are: AlmaLinux, Rocky Linux, Ubuntu Server, Debian, Fedora Server, Red Hat Enterprise Linux, Ubuntu")
+          time.sleep(120)
 
 # - PENTESTING (CONDITIONS)
 if quest1 == "4":
@@ -92,15 +101,19 @@ if quest1 == "4":
 
      if pts1 == "1":
           print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio")
+          time.sleep(120)
 
      if pts1 == "2":
           print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS")
+          time.sleep(120)
 
      if pts1 == "3":
           print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS, ParrotSEC, Parrot HTB, Kali Linux, BlackArch")
+          time.sleep(120)
 
      if pts1 == "4":
           print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS, ParrotSEC, Parrot HTB, Kali Linux, BlackArch, Arch Linux, Backbox, Bodhi Linux, Joli OS, KDE Neon, Nova")
+          time.sleep(120)
 
 
 
