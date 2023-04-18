@@ -47,9 +47,8 @@ Instructions to download the app;
 
 * Example Snippet for distro opportunities;
 
-*if sot1 == "4":
 
-          print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home, ParrotSEQ, Kali Linux, Parrot HTB, Astra OS, Devuan, BOSS Linux, Sacix, Vyatta, Blackarch, Manjaro, KaOS, ChromeOS, ChromiumOS, Fire OS, Oracle Linux, Redhat Enterprise, Redhat.")*
+          print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home, ParrotSEQ, Kali Linux, Parrot HTB, Astra OS, Devuan, BOSS Linux, Sacix, Vyatta, Blackarch, Manjaro, KaOS, ChromeOS, ChromiumOS, Fire OS, Oracle Linux, Redhat Enterprise, Redhat.")
           
 
 ## 1.3
