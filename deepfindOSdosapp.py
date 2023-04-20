@@ -1,5 +1,7 @@
 # - Notes:
-# time.sleep commands are for preventing eye shock for some users' health.
+# Time.sleep commands are for preventing eye shock for some users' health.
+# This project is managed in Jira®
+# This project is available in Github
 
 
 # - SOT variables
@@ -52,25 +54,33 @@ if quest1 == "1":
      
 
      if sot1 == "2":
-          print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu.")
-          time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu.")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", sot_lv2MOBILE)
+               time.sleep(120)
+               
 
      if sot1 == "3":
-          print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home.")
-          time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home.")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", sot_lv3MOBILE)
+               time.sleep(120)
 
      if sot1 == "4":
-          print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home, ParrotSEQ, Kali Linux, Parrot HTB, Astra OS, Devuan, BOSS Linux, Sacix, Vyatta, Blackarch, Manjaro, KaOS, ChromeOS, ChromiumOS, Fire OS, Oracle Linux, Redhat Enterprise, Redhat.")
           time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Debian, Fedora, Ubuntu, Pardus, Linux LITE, Arch Linux, Linux Mint, Fuduntu, CentOS, Linux XP, Lubuntu, Xubuntu, Edubuntu, Parrot Architect, Zorin OS, Parrot Home, ParrotSEQ, Kali Linux, Parrot HTB, Astra OS, Devuan, BOSS Linux, Sacix, Vyatta, Blackarch, Manjaro, KaOS, ChromeOS, ChromiumOS, Fire OS, Oracle Linux, Redhat Enterprise, Redhat.")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", sot_lv4MOBILE)
+               time.sleep(120)
 
 
 # - CODING (CONDITIONS)
@@ -111,32 +121,42 @@ if quest1 == "4":
      time.sleep(3)
 
      if pts1 == "1":
-          print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio")
-          time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", pentesting_MOBILE)
+               time.sleep(120)
 
      if pts1 == "2":
-          print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS")
-          time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", pentesting_MOBILE)
+               time.sleep(120)
 
      if pts1 == "3":
-          print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS, ParrotSEC, Parrot HTB, Kali Linux, BlackArch")
           time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS, ParrotSEC, Parrot HTB, Kali Linux, BlackArch")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", pentesting_MOBILE)
+               time.sleep(120)
 
      if pts1 == "4":
-          print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS, ParrotSEC, Parrot HTB, Kali Linux, BlackArch, Arch Linux, Backbox, Bodhi Linux, Joli OS, KDE Neon, Nova")
           time.sleep(120)
           mobileopt = input("There are mobile versions available for you. Would you like to view them? |1: Yes|2: No|")
+          if mobileopt == "2":
+               print("The recommended Linux distributions for you are: Ubuntu, Lubuntu, Xubuntu, Debian, Kubuntu, Ubuntu MATE, Ubuntu Studio, Parrot Home, Parrot Architect, Gobuntu, Cub Linux, gOS, ParrotSEC, Parrot HTB, Kali Linux, BlackArch, Arch Linux, Backbox, Bodhi Linux, Joli OS, KDE Neon, Nova")
+               time.sleep(120)
           if mobileopt == "1":
                print("The recommended mobile versions for you are: ", pentesting_MOBILE)
+               time.sleep(120)
 
 exitquestion = input("Do you want to quit this app?| 1: Yes | 2: No |")
 if exitquestion == "1":
